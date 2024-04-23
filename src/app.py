@@ -47,6 +47,8 @@ def create_car_features_df(
         ])
 
 
+st.title("Car price prediction")
+
 levy_in = st.number_input('Levy', 0)
 manufacturer_in = st.selectbox('Manufacturer', (
     'MERCEDES-BENZ', 'JEEP', 'HYUNDAI', 'SSANGYONG', 'NISSAN', 'TOYOTA', 'HONDA', 'DAEWOO', 'KIA', 'SUBARU', 'VAZ',
